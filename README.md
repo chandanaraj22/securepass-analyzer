@@ -239,10 +239,6 @@ This project demonstrates practical experience with:
 
 **R. Chandana**
 
-Incoming **M.S. Computer Science (Cybersecurity)**
-
-**Arizona State University**
-
 GitHub: https://github.com/chandanaraj22
 
 ---

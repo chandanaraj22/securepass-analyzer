@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #08111f;
+    color: #e5eefc
+}
+
+.topbar {
+    padding: 24px 8%;
+    border-bottom: 1px solid #16304b;
+    background: #0b1628
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 18px
+}
+
+.logo {
+    width:64px;
+    height:64px;
+    object-fit:contain;
+}
+
+.brand-text h1{
+    margin:0;
+    color:#00E5FF;
+    font-size:3rem;
+    font-weight:700;
+}
+
+.brand-text p{
+    margin-top:6px;
+    color:#94A3B8;
+    font-size:1.2rem;
+}
+
+.brand h1 {
+    margin: 0;
+    color: #00e5ff
+}
+
+.brand p {
+    margin: 4px 0 0;
+    color: #9bb4c9
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px
+}
+
+.panel,
+.card {
+    background: #101c31;
+    border: 1px solid #17314d;
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(0, 229, 255, .08)
+}
+
+.panel {
+    padding: 28px;
+    margin-bottom: 24px
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    background: #08111f;
+    border: 1px solid #264d74;
+    color: #fff;
+    border-radius: 12px
+}
+
+form > button {
+    margin-top: 18px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #00e5ff;
+    color: #07111d;
+    font-weight: 700;
+    cursor: pointer;
+    font-size:18px;
+    transition: .3s
+}
+
+form > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 229, 255, .45)
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px
+}
+
+.card {
+    padding: 22px
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #00e5ff
+}
+
+.big {
+    font-size: 3rem;
+    font-weight: 700
+}
+
+.bar {
+    height: 10px;
+    background: #24364c;
+    border-radius: 99px;
+    overflow: hidden
+}
+
+.fill {
+    height: 100%;
+    background: linear-gradient(90deg, #00e5ff, #22c55e)
+}
+
+.badge {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: #15324a
+}
+
+.metric {
+    font-size: 2rem;
+    font-weight: 700
+}
+
+.wide {
+    grid-column: 1/-1
+}
+
+footer {
+    text-align: center;
+    color: #88a3bb;
+    padding: 30px
+}
+footer {
+    text-align: center;
+    color: #88a3bb;
+    padding: 30px;
+}
+
+/* ---------- Password Toggle ---------- */
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    width: 100%;
+    padding: 16px 50px 16px 16px; /* Right padding creates space for the eye */
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 50%;
+    right: 22px;
+
+    transform: translateY(-50%);
+
+    background: transparent !important;
+    border: none;
+
+    color: #00E5FF;
+
+    cursor: pointer;
+
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px !important;
+    height: 24px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    box-shadow: none;
+}
+
+.toggle-btn:hover {
+    color: white;
+    background: transparent;
+    transform: translateY(-50%);
+}
+
+.toggle-btn:focus {
+    outline: none;
+}
+
+.text-success {
+    color: #22C55E;
+}
+
+.text-danger {
+    color: #EF4444;
+}
+
+.toggle-btn i {
+    position: relative;
+    top: -1px;
+}
+.success-box {
+
+    background: #11351e;
+
+    border-left: 4px solid #22C55E;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+}
+
+.danger-box {
+
+    background: #3a1518;
+
+    border-left: 4px solid #EF4444;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    margin-top: 10px;
+
+}
+
+.success-box strong {
+
+    color: #22C55E;
+
+}
+
+.danger-box strong {
+
+    color: #EF4444;
+
+}
+
+.success-box p,
+.danger-box p {
+
+    margin-top: 8px;
+
+    line-height: 1.5;
+
+    color: #ddd;
+
+}
+
